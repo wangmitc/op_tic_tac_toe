@@ -1,0 +1,35 @@
+@import 'styles.css';
+
+/* animations */
+@keyframes fluctuateOpacity {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* id's and classes */
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#game-title {
+    font-size: 8rem;
+    font-family: muller-narrow-extra-bold-italic, sans-serif;
+    padding-bottom: 10%;
+}
+
+#click-to-play {
+    font-size: 1.7rem;
+    color: #666;
+    font-family: muller-extra-bold, sans-serif;
+    animation: fluctuateOpacity 2s infinite alternate;
+}
+

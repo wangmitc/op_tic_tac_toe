@@ -169,7 +169,7 @@ if (typeof window === 'undefined') {
             } else if (again === "No") {
                 return;
             } else {
-                console.log("input must be either 'Yes' or 'No'")
+                console.log("input must be either 'Yes' or 'No'");
             }
         }
     }
@@ -178,4 +178,5 @@ if (typeof window === 'undefined') {
     //if webjs
     //add players
     //start game
+    console.log("hi");
 }

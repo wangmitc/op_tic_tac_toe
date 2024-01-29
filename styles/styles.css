@@ -1,0 +1,37 @@
+/* tags */
+body {
+    background-color: #FAF9F6 !important;
+    color: #1a1a1a !important;
+    margin: 0% !important;
+}
+
+/* fonts */
+@font-face {
+    font-family: muller-extra-bold;
+    src: url(../assets/MullerDemo-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: muller-thin;
+    src: url(../assets/MullerDemo-Thin.otf);
+}
+
+@font-face {
+    font-family: muller-narrow-extra-bold;
+    src: url(../assets/MullerNarrowDemo-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: muller-narrow-extra-bold-italic;
+    src: url(../assets/MullerNarrowDemo-ExtraBoldItalic.otf);
+}
+
+@font-face {
+    font-family: muller-narrow-light;
+    src: url(../assets/MullerNarrowDemo-Light.otf);
+}
+
+@font-face {
+    font-family: muller-narrow-light-italic;
+    src: url(../assets/MullerNarrowDemo-LightItalic.otf);
+}
